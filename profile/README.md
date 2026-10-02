@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  A Windows gaming utility for frame generation, image scaling and smoother gameplay.
+  Frame generation, image scaling and gaming customization for Windows PC.
 </p>
 
 <p align="center">
@@ -37,131 +37,174 @@
 
 **Lossless Scaling** is a Windows gaming utility focused on frame generation and image scaling.
 
-The software can generate additional frames using **LSFG**, while its scaling features can upscale a game from a lower resolution to the display resolution. This makes it useful for games that do not provide their own frame generation or scaling options.
+The application can generate additional frames with **LSFG** and upscale games using several scaling algorithms. It is designed for games that may not have their own frame-generation or modern scaling options.
 
-Lossless Scaling supports a wide range of hardware and can work with many games and applications. :contentReference[oaicite:1]{index=1}
+Lossless Scaling can also store individual settings through Game Profiles, making it easier to use different configurations for different games.
+
+---
 
 ## 🚀 Key Features
 
 | Feature | Description |
 |---|---|
 | 🎞️ Frame Generation | Generate additional frames with LSFG |
-| ⚡ LSFG 3 | Current generation of Lossless Scaling frame generation |
-| 🖥️ Image Scaling | Upscale games from lower resolutions |
-| 🧠 LS1 | Machine-learning based scaling |
-| 🎮 Game Profiles | Save individual settings for different games |
-| 🔧 FSR / NIS | Additional scaling methods |
-| 🖼️ Integer Scaling | Useful for pixel-art and older games |
-| 🎨 Anime4K | Scaling option for supported visual content |
-| 🪟 Windows | Designed for Windows gaming PCs |
+| ⚡ LSFG 3 | Modern frame-generation technology |
+| 🖥️ Image Scaling | Upscale lower-resolution game output |
+| 🧠 LS1 | Advanced image-scaling algorithm |
+| 🎮 Game Profiles | Save settings for individual games |
+| 🔧 FSR / NIS | Additional scaling options |
+| 🖼️ Integer Scaling | Designed for pixel-art and older games |
+| 🎨 Anime4K | Scaling option for anime and cartoon content |
+| 🖥️ Dual GPU | Supported workloads can be moved to a second GPU |
+| 💻 Windows | Designed for Windows gaming PCs |
 
 ---
 
 ## 🎞️ LSFG Frame Generation
 
-One of the main features of Lossless Scaling is **LSFG**, its frame-generation technology.
+**LSFG** is the frame-generation technology built into Lossless Scaling.
 
-LSFG creates additional frames between rendered frames to make motion appear smoother. It can be used with games that do not have built-in frame generation.
+It creates additional frames between rendered frames to make movement appear smoother. It can be particularly useful for games that do not have their own frame-generation implementation.
 
-Current Lossless Scaling documentation describes **LSFG 3** as providing improvements in image quality, performance and latency compared with earlier versions. :contentReference[oaicite:2]{index=2}
-
-### LSFG Modes
-
-Depending on the current version, frame generation can use different operating modes.
-
-- Fixed frame multiplication
-- Adaptive frame generation
-- Performance-oriented settings
-- Quality-oriented settings
-
-The appropriate configuration depends on the game, GPU and monitor refresh rate.
+LSFG includes different modes for controlling how generated frames are produced, including Fixed and Adaptive modes.
 
 ---
 
-## 🖥️ Scaling
+## ⚡ LSFG 3
 
-Lossless Scaling can upscale a game running at a lower internal resolution.
+LSFG 3 is the current generation of Lossless Scaling frame generation.
 
-This can be useful when:
+It is designed to improve:
 
-- A game is GPU-limited
-- Native resolution is too demanding
-- A game does not support modern scaling methods
-- An older game has limited resolution options
-- A pixel-art game needs integer scaling
+- Motion smoothness
+- Frame generation quality
+- Performance
+- Compatibility with different hardware
+- Frame-generation control
 
-Supported algorithms include LS1, FSR, NIS, Integer Scaling, XBR and other scaling methods. :contentReference[oaicite:3]{index=3}
+The exact result depends on the original game frame rate, GPU performance, display refresh rate and selected settings.
+
+---
+
+## 🖥️ Image Scaling
+
+Lossless Scaling can upscale games rendered at a lower resolution.
+
+Lowering the game's internal resolution can reduce GPU workload while the scaling algorithm reconstructs the output for a higher-resolution display.
+
+Supported scaling methods include:
+
+- LS1
+- FSR
+- NIS
+- Integer Scaling
+- XBR
+- Anime4K
+- Nearest Neighbor
+- Sharp Bilinear
+- Bicubic CAS
+
+Different algorithms are suited to different types of games and visual content.
 
 ---
 
 ## 🧠 LS1 Scaling
 
-**LS1** is a machine-learning based scaling algorithm designed for general-purpose image upscaling.
+**LS1** is a scaling method designed for general gaming use.
 
-It can be used with modern games when rendering at a lower resolution and upscaling to the monitor's native resolution.
+It can be used when a game is rendered below the monitor's native resolution and then scaled to the desired output resolution.
+
+The result depends on the source resolution, display resolution and selected settings.
 
 ---
 
 ## 🎮 Game Profiles
 
-Lossless Scaling provides **Game Profiles** for storing settings for individual games or groups of games.
+Lossless Scaling includes **Game Profiles** for saving configurations for individual games.
 
-Profiles can reduce the need to manually configure the same scaling and frame-generation options each time a game is launched. :contentReference[oaicite:4]{index=4}
+Profiles can store settings such as:
+
+- Scaling method
+- Frame-generation configuration
+- Display settings
+- Game-specific options
+- Scaling parameters
+
+This makes it possible to use different configurations without repeatedly changing settings manually.
 
 ---
 
 ## 🖼️ Integer Scaling
 
-Integer Scaling is designed for situations where preserving pixel structure is important.
+Integer Scaling is useful for games that benefit from preserving the original pixel structure.
 
-It can be useful for:
+It can be particularly useful for:
 
 - Pixel-art games
 - Retro games
-- Older PC games
-- Low-resolution content
+- Older PC titles
+- Low-resolution applications
 
 ---
 
 ## 🎨 Additional Scaling Methods
 
-Depending on the current version, Lossless Scaling provides several scaling algorithms, including:
+Depending on the current version, Lossless Scaling provides multiple scaling algorithms.
+
+### Modern Games
 
 - LS1
-- AMD FidelityFX Super Resolution
-- NVIDIA Image Scaling
+- FSR
+- NIS
+
+### Pixel-Art & Retro Games
+
 - Integer Scaling
-- Nearest Neighbor
 - XBR
+- Nearest Neighbor
+
+### Anime & Cartoon Content
+
 - Anime4K
-- Sharp Bilinear
-- Bicubic CAS
 
-The best method depends on the game and the type of image being scaled. :contentReference[oaicite:5]{index=5}
+The appropriate algorithm depends on the source resolution and visual style.
 
 ---
 
-## ⚙️ Performance
+## 🖥️ Dual GPU Support
 
-Frame generation requires additional GPU resources.
+Lossless Scaling supports using a second GPU for supported scaling and frame-generation workloads.
 
-For the best results, it is useful to leave sufficient GPU capacity available for Lossless Scaling rather than running the game at maximum GPU utilization.
+This can be useful when the primary GPU is heavily loaded by the game.
 
-The official Steam documentation notes that available GPU resources can affect the original game's frame rate. :contentReference[oaicite:6]{index=6}
+The actual benefit depends on the hardware configuration and available GPU resources.
 
 ---
 
-## 🖥️ Display Modes
+## 🎯 FPS & Performance
 
-Lossless Scaling supports **windowed and borderless fullscreen** modes.
+Lossless Scaling can improve perceived smoothness through frame generation, but generated frames do not replace the game's original rendering performance.
 
-Exclusive fullscreen has additional limitations and may require a specific display configuration. :contentReference[oaicite:7]{index=7}
+For good results, the game should maintain a reasonable base frame rate before enabling frame generation.
+
+Available GPU resources are also important because Lossless Scaling requires GPU processing power.
+
+---
+
+## 🪟 Display Modes
+
+Lossless Scaling supports:
+
+- Windowed mode
+- Borderless fullscreen
+
+Exclusive fullscreen has additional limitations and may require a specific display configuration.
+
+For the most straightforward setup, borderless fullscreen or windowed mode is recommended.
 
 ---
 
 ## 💻 System Requirements
-
-Lossless Scaling requires a 64-bit Windows system.
 
 ### Minimum
 
@@ -172,29 +215,31 @@ Lossless Scaling requires a 64-bit Windows system.
 
 ### Recommended
 
-- **OS:** Windows 11
-- **Graphics:** NVIDIA GeForce RTX 30 series, AMD Radeon RX 6000 series or Intel Arc-class hardware
+- **OS:** Windows 11 version 24H2
+- **Graphics:** NVIDIA GeForce RTX 30 series
+- **Graphics:** AMD Radeon RX 6000 series
+- **Graphics:** Intel Arc series
 - **DirectX:** Version 11
 
-The exact experience depends on the game, resolution, frame-generation mode and available GPU resources. :contentReference[oaicite:8]{index=8}
+The actual performance depends on the game, resolution, frame-generation mode and available GPU resources.
 
 ---
 
 ## 🔄 Compatibility
 
-Lossless Scaling is designed to work with a broad range of games and applications, including titles that do not have built-in frame generation.
+Lossless Scaling is designed to work with a wide range of games and applications.
 
-Compatibility can still vary depending on:
+Compatibility can depend on:
 
 - Game rendering mode
 - Window mode
-- Resolution
 - Graphics API
+- Resolution
 - GPU hardware
-- Anti-cheat configuration
+- Display configuration
 - Game updates
 
-The software should be configured individually for each game when necessary. :contentReference[oaicite:9]{index=9}
+Not every game will produce the same result with identical settings.
 
 ---
 
@@ -202,13 +247,14 @@ The software should be configured individually for each game when necessary. :co
 
 For a smoother experience:
 
-- Use a supported borderless or windowed mode.
-- Leave some GPU resources available.
+- Use windowed or borderless fullscreen mode.
+- Leave sufficient GPU resources available.
 - Test different scaling algorithms.
-- Use Game Profiles for frequently played games.
-- Adjust frame-generation settings according to your monitor refresh rate.
-- Keep your graphics driver updated.
-- Test settings individually rather than changing everything at once.
+- Create individual Game Profiles.
+- Match frame-generation settings to your monitor refresh rate.
+- Keep graphics drivers updated.
+- Avoid changing multiple settings at once.
+- Test the game at a stable base frame rate before enabling frame generation.
 
 ---
 
@@ -216,35 +262,70 @@ For a smoother experience:
 
 ### What is Lossless Scaling?
 
-Lossless Scaling is a Windows utility for image scaling and frame generation in games and other applications.
+Lossless Scaling is a Windows gaming utility for frame generation, image scaling and game-specific configuration.
 
 ### What is LSFG?
 
-LSFG is the frame-generation technology built into Lossless Scaling. It creates additional frames to make motion appear smoother.
+LSFG is Lossless Scaling's frame-generation technology. It creates additional frames to make supported games appear smoother.
 
 ### What is LSFG 3?
 
-LSFG 3 is the current generation of the Lossless Scaling frame-generation technology, with improvements focused on image quality, performance and latency. :contentReference[oaicite:10]{index=10}
+LSFG 3 is the current generation of Lossless Scaling frame generation, designed to provide improved performance and image quality.
 
-### Can Lossless Scaling work with games without frame generation?
+### Can Lossless Scaling work with games without built-in frame generation?
 
-Yes. One of its main purposes is providing frame generation for games that do not have their own frame-generation implementation. :contentReference[oaicite:11]{index=11}
+Yes. One of its main uses is providing frame generation for games that do not include their own frame-generation technology.
 
 ### Can Lossless Scaling upscale games?
 
-Yes. The application includes multiple image-scaling algorithms for upscaling lower-resolution game output. :contentReference[oaicite:12]{index=12}
+Yes. It includes several image-scaling algorithms for converting lower-resolution game output to a higher-resolution display.
+
+### Does Lossless Scaling support NVIDIA GPUs?
+
+Yes. Lossless Scaling supports a broad range of graphics hardware, including NVIDIA GPUs.
+
+### Does Lossless Scaling support AMD GPUs?
+
+Yes. AMD Radeon hardware is supported, with the exact experience depending on the GPU generation and selected settings.
+
+### Does Lossless Scaling support Intel Arc?
+
+Yes. Intel Arc graphics are listed among the recommended graphics hardware.
 
 ### Does Lossless Scaling work on Windows 10?
 
-The current Steam requirements list Windows 10 version 2004 or newer. :contentReference[oaicite:13]{index=13}
+Yes. The current requirements list Windows 10 version 2004 or newer.
 
-### Does Lossless Scaling support NVIDIA and AMD GPUs?
+### Can I use Lossless Scaling with different games?
 
-Yes. The application is designed to work across a wide range of hardware, including NVIDIA, AMD and Intel graphics hardware. :contentReference[oaicite:14]{index=14}
+Yes. Game Profiles allow different configurations to be saved for individual games.
 
-### Does frame generation increase the real game FPS?
+### Does frame generation increase the game's native FPS?
 
-Frame generation creates additional displayed frames. It does not replace the game's underlying rendering performance, so the experience depends on the game's base frame rate, GPU resources and display configuration.
+Frame generation creates additional displayed frames. It does not increase the game's underlying rendering performance, so the base frame rate and available GPU resources remain important.
+
+---
+
+## 🔎 Search Topics
+
+- Lossless Scaling
+- Lossless Scaling Windows
+- Lossless Scaling PC
+- Lossless Scaling FPS
+- Lossless Scaling frame generation
+- Lossless Scaling LSFG
+- LSFG 3
+- LSFG frame generation
+- frame generation Windows
+- FPS scaling
+- game frame generation
+- gaming frame generation
+- image scaling Windows
+- PC game scaling
+- Windows gaming utility
+- Lossless Scaling settings
+- Lossless Scaling profiles
+- Lossless Scaling upscaling
 
 ---
 
@@ -259,14 +340,13 @@ Frame generation creates additional displayed frames. It does not replace the ga
 `lsfg-3`  
 `frame-generation`  
 `frame-generation-windows`  
-`fps-scaling`  
+`image-scaling`  
 `game-scaling`  
-`gaming-utility`  
+`fps-scaling`  
+`upscaling`  
 `windows-gaming`  
 `pc-gaming`  
-`image-scaling`  
-`upscaling`  
-`gaming-performance`
+`gaming-utility`
 
 ---
 
